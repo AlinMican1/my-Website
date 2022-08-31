@@ -13,15 +13,44 @@
   }
 }
 
-.App-header {
-  background-color: #e1116f;
+.App-Top-Bar {
+  background-image: linear-gradient(to right, #5620E5, #181824);
+  min-height: 5vh;
+  
+}
+
+.App-Home-Header {
+  background-color: #181824;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(67, 252, 0);
+ 
+}
+
+.ProjectBTN {
+  font-family: Trebuchet MS;
+  font-size: 15px;
+  font-weight: 2000;
+  color: #ffffff;
+  position: relative;
+ 
+  /* Not hovered */
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  /*box dimensions */
+  border-radius: 25px;
+  width: 75px;
+  height: 25px;
+}
+.ProjectBTN:hover{
+  background-image: linear-gradient(to right, #365AFD, #CF61FE);
 }
 
 .App-link {

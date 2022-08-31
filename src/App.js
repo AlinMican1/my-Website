@@ -1,10 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import ProjectBtn from './components/ProjectBtn';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="App-Top-Bar">
+        <ProjectBtn />
+       
+      </div>
+      <header className="App-Home-Header">
+        </header>
+      {/* <header className="App-Home-Header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -16,9 +23,13 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+           
         </a>
-      </header>
+      
+      </header> */}
+      
     </div>
+    
   );
 }
 
